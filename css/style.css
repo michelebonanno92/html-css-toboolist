@@ -12,6 +12,28 @@
  /* 
  general
  */
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.border-radius5{
+    border-radius: 5px;
+}
+
+.border-radius15{
+    border-radius: 15px;
+}
+
+.text-white{
+    color: white;
+}
+
+.text-grey{
+    color: grey;
+}
+
 
 
 /* 
@@ -22,12 +44,68 @@ header h1, header img{
     vertical-align: middle;
 }
 
-
-
  /* 
   main
  */
+main{
+    background-color: #F6F8F9;
+}
 
+.add-container .add-task, 
+.add-container .add-section{
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+ 
+}
+
+.add-task{
+    background-color: #47ADF1;
+    width: 25%;
+}
+
+.add-section{
+    /* background-color: white; */
+    width: 25%;
+    border: 1px solid grey;
+    opacity: 0.4;
+}
+
+.add-container{
+    background-color: white;
+    padding: 20px;
+    font-size: small;
+}
+
+.task-container{
+    background-color: white;
+    margin-top: 5px;
+}
+
+
+
+
+/* .circle{
+    border: solid 3px;
+    width: 30px;
+    line-height: 30px;
+    text-align: center;
+    height: 30px;
+    border-radius: 50%;
+    font-size: 25px;
+    display: inline-block;
+}
+
+.circle-green{
+    color: green;
+    border-color: green;
+}
+
+.circle-red{
+    color: red;
+    border-color: red;
+} */
 
 
 
