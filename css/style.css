@@ -6,17 +6,100 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Roboto", sans-serif;
  }
 
  /* 
  general
  */
-.container{
+
+ body{
+    background-color: #F6F8F9;
+
+ }
+
+
+ /* 
+ header
+  */
+
+  header{
+    background-color: white;
+    padding: 10px;
+  }
+
+  header img, header h1{
+    display: inline;
+    vertical-align: middle;
+  }
+
+
+  /* 
+  main
+   */
+
+   .container{
     width: 80%;
     margin: 0 auto;
     padding-top: 30px;
 }
+main{
+  background-color: #F6F8F9;
+}  
+
+#add-task{
+  margin-left: 40px;
+}
+
+.add-container > .oval{
+  border-radius: 5px;
+  width: 8%;
+} 
+
+.add-container{
+  background-color: white;
+  padding: 20px;
+}
+
+.task-container{
+  background-color: white;
+  margin-top: 5px;
+  padding: 50px;
+}
+
+.new-task span, .new-task h2{
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.new-task{
+  margin-top: 40px;
+}
+
+.circle{
+  border: solid 1px;
+  width: 20px;
+  line-height: 20px;
+  text-align: center;
+  height: 20px;
+  border-radius: 50%;
+  font-size: 15px;
+  display: inline-block;
+}
+
+.circle-green{
+  color: green;
+  border-color: green;
+}
+
+.circle-red{
+  color: red;
+  border-color: red;
+} -->
+
+
+
+
 
 #text-grey{
     color: grey;
@@ -24,9 +107,8 @@
     opacity: 0.6;
 }
 
-.rectangle-lightblue{
-    background-color: #47ADF1;
-    
+.rectangle-light-blue{
+    background-color: #47ADF1; 
 }
 
 .oval-light-blue{
@@ -53,7 +135,6 @@
     background-color: #B0C926;
 }
 
-
 .oval{
     height: 30px;
     line-height: 30px;
@@ -75,73 +156,7 @@
     margin-top: 20px;
 }
 
-/* 
- header
-*/
-header h1, header img{
-    display: inline;
-    vertical-align: middle;
-}
 
- /* 
-  main
- */
-main{
-    background-color: #F6F8F9;
-}  
-
- #add-task{
-    margin-left: 40px;
- }
-
-.add-container > .oval{
-    border-radius: 5px;
-    width: 8%;
-} 
-
-.add-container{
-    background-color: white;
-    padding: 20px;
-    
-}
-
-.task-container{
-    background-color: white;
-    margin-top: 5px;
-    padding: 50px;
-}
-
-.new-task span, .new-task h2{
-    display: inline-block;
-    margin-bottom: 10px;
-}
-
-.new-task{
-    margin-top: 40px;
-}
-
-
-
-.circle{
-    border: solid 1px;
-    width: 20px;
-    line-height: 20px;
-    text-align: center;
-    height: 20px;
-    border-radius: 50%;
-    font-size: 15px;
-    display: inline-block;
-}
-
-.circle-green{
-    color: green;
-    border-color: green;
-}
-
-.circle-red{
-    color: red;
-    border-color: red;
-}
 
 
 
